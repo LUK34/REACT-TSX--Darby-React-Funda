@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+//import Hello from './hello-world/hello';
+//import SampleCase from './sample-type/sample-type';
+//import Loops from './loops-arrays/loops';
+//import Customer from './classes/01-classDefinition/Customer';
+//import Customer from './classes/02-accessModifiers/Customer';
+import Customer from './classes/03-parameterProperties/Customer';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {
+        /*
+        <Hello />
+        */
+      }
+      {
+       /* 
+       <SampleCase /> 
+        */
+      }
+      {
+        /*
+        <Loops />
+        */
+      }
+
+      {
+        <Customer />
+      }
+
+       
+      
     </div>
   );
 }
